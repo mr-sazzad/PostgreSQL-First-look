@@ -4,5 +4,11 @@
 
 
 ```css
-hello: how 
+--## apply constraints
+CREATE TABLE "user" (
+    user_id SERIAL PRIMARY KEY,
+    user_name VARCHAR(250) UNIQUE NOT NULL,
+    email VARCHAR(50) UNIQUE NOT NULL,
+    age INT DEFAULT 18
+);
 ```
