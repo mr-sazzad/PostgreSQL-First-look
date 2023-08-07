@@ -127,3 +127,27 @@ ALTER TABLE "user" ADD CONSTRAINTS unique_email UNIQUE(email);
 ```sql
 ALTER TABLE "user" DROP CONSTRAINTS unique_email;
 ```
+
+> -- Employee TABLE
+> -- Each employee belongs to a department
+
+```sql
+CREATE TABLE Employee(
+    empID SERIAL PRIMARY KEY,
+    empName VARCHAR(50) NOT NULL,
+    departmentID INT,   --we use int because we don't need actually incremental id
+    CONSTRAINT fk_constraint_dept
+        FOREIGN KEY (departmentID)
+        REFERENCES Department(deptID)
+);
+```
+
+> -- Department Table
+> -- Each Department has mny employees
+
+```sql
+CREATE TABLE Department(
+    deptID SERIAL PRIMARY KEY,
+    deptName VARCHAR(50) NOT NULL
+);
+```
