@@ -1,3 +1,3 @@
 ## Hi There 
 
-[![elephent Image](https://d1jyxxz9imt9yb.cloudfront.net/medialib/1792/image/s1300x1300/elephant-calf-mom-IFAW_slash_B._Hollweg.jpg)](https://d1jyxxz9imt9yb.cloudfront.net/medialib/1792/image/s1300x1300/elephant-calf-mom-IFAW_slash_B._Hollweg.jpg)
+[![elephent Image](file:///C:/Users/sazza/Downloads/animal-elephant-mammal-nature-wild-patterns-decoration-multi-colored-generative-ai.jpg)](file:///C:/Users/sazza/Downloads/animal-elephant-mammal-nature-wild-patterns-decoration-multi-colored-generative-ai.jpg)
