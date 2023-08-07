@@ -4,7 +4,7 @@
 
 
 ```css
-<-- --## apply constraints -->
+<-- apply constraints -->
 CREATE TABLE "user" (
     user_id SERIAL PRIMARY KEY,
     user_name VARCHAR(250) UNIQUE NOT NULL,
