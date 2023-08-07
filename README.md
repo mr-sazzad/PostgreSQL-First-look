@@ -129,6 +129,7 @@ ALTER TABLE "user" DROP CONSTRAINTS unique_email;
 ```
 
 > -- Employee TABLE
+> 
 > -- Each employee belongs to a department
 
 ```sql
@@ -143,6 +144,7 @@ CREATE TABLE Employee(
 ```
 
 > -- Department Table
+> 
 > -- Each Department has mny employees
 
 ```sql
