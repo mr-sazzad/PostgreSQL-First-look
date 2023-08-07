@@ -153,3 +153,11 @@ CREATE TABLE Department(
     deptName VARCHAR(50) NOT NULL
 );
 ```
+
+> -- update database table row
+```js
+UPDATE Table
+set
+  ColumnName = ColumnValue
+where courseID = 1;  --condition
+```
