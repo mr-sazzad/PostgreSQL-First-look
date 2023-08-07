@@ -161,3 +161,9 @@ set
   ColumnName = ColumnValue
 where courseID = 1;  --condition
 ```
+> DELETE FROM TABLE
+
+```css
+DELETE FROM TableName 
+WHERE condition = conditionValue;
+```
