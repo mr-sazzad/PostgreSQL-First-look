@@ -208,3 +208,10 @@ SELECT name, email FROM TableName;
 ```sql
 SELECT empid, name, email, salary, joiningdate, deptid FROM Table;
 ```
+
+```sql
+> -- IF WE WANT TO VIEW JUST UNIQUE VALUES FROM A COLUMN
+
+
+SELECT DISTINCT Column_Name FROM Table_Name
+```
