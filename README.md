@@ -60,13 +60,9 @@ DELETE FROM table_name WHERE user_id = 35;
 
 ```css
  --## column queries
-```
 
-```css
 --## →→→ you shuld alwyes set a type when you create a column
-```
 
-```css
 --## add column
 ```
 
@@ -152,9 +148,7 @@ ALTER TABLE "user" DROP CONSTRAINTS unique_email;
 
 ```css
 -- Employee TABLE
-```
 
-```css
 -- Each employee belongs to a department
 ```
 
@@ -171,9 +165,7 @@ CREATE TABLE Employee(
 
 ```css
  -- Department Table
-```
 
- ```css
 -- Each Department has mny employees
 ```
 
