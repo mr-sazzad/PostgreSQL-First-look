@@ -180,4 +180,8 @@ SELECT empid, name, email, salary, joiningdate, deptid FROM Table;
 
 
 SELECT DISTINCT Column_Name FROM Table_Name
+
+-- FILTERING THOSE ROWS WHICH SATISFY THE CONDITION
+
+SELECT * FROM Table_name WHERE salary > 30000;
 ```
