@@ -12,39 +12,30 @@ CREATE TABLE "user" (
     email VARCHAR(50) UNIQUE NOT NULL,
     age INT DEFAULT 18
 );
-```
 
-```sql
+
  --  INSART A COLUMN IN A TABLE
 
 INSERT INTO table_name VALUES(1, 'xyz', 'xyz@gmail.com');
-```
 
 
-```sql
- -- insert multipul column into a table
+ -- INSART MULTIPULE COLUMN TO A TABLE
 
 1. INSERT INTO table_name VALUES(1, 'xyz', 'xyz@gmail.com'),(2, 'abc', 'abc@gmail.com');
 2. INSERT INTO table_name (user_name, email) VALUES ('sazzad', 'sazzad@gmail.com');
 3. INSERT INTO table_name (user_id, user_name, email, age) VALUES (4, 'rakib', 'rakib@gmail.com', 40);
-```
 
-```sql
--- retrieve all columns form table 🎉
+
+-- RETRIEVE ALL COLUMN FROM A TABLE 🎉
 
 SELECT * FROM Table_Name;
-```
 
- 
- ```sql
--- DELETE a row from a table
+
+-- DELETE A ROW FROM A TABLE USING CONDITION 💎
 
 DELETE FROM table_name WHERE user_id = 35;
-```
 
 
-
-```sql
 -- DELETE all rows without deleting the table 💥
 
 1. DELETE FROM table_name;
@@ -52,76 +43,64 @@ DELETE FROM table_name WHERE user_id = 35;
 ```
 
 ```sql
- -- column queries
+ -- COLUMN CUERIES
 -- →→→ you shuld alwyes set a type when you create a column
 -- add column
 
 ALTER TABLE "user" ADD COLUMN password VARCHAR(30) NOT NULL;
 ALTER TABLE "user" ADD COLUMN demo INT;
-```
 
 
-
-```sql
--- drop column
+-- DROP A COLUMN
 
 ALTER TABLE "user" DROP COLUMN column_name;
-```
 
-```sql
--- change data type
+
+-- CHANGE DATA TYPE OF A COLUMN
 
 ALTER TABLE "user" ALTER COLUMN age FLOAT4;
-```
 
-```sql
--- set default value
+
+-- SET DEFAULT VALUE TO A COLUMN
 
 ALTER TABLE "user" ALTER COLUMN country set DEFAULT 'bangladesh';
-```
 
-```sql
--- remove default value from a column 💥
+
+-- REMOVE DAFAULT VALUE FROM A COLUMN 💥
 
 ALTER TABLE "user" ALTER COLUMN country DROP DEFAULT;
-```
 
-```sql
--- rename a column
+
+-- RENAME A COLUMN
 
 ALTER TABLE "user" RENAME COLUMN country to home;
 ```
 
 ```sql
--- set constraints
+-- CONSTRAINTS
+-- SET CONSTRAINTS
 
 ALTER TABLE "user" ALTER COLUMN set countrt NOT NULL;
-```
 
-```sql
--- drop constraints
+
+-- DROP CONSTRAINTS
 
 ALTER TABLE "user" ALTER COLUMN drop countrt;
-```
 
 
-```sql
--- add constraints to a column
+-- ADD CONSTRAINTS TO A COLUMN
 
 ALTER TABLE "user" ADD CONSTRAINTS unique_email UNIQUE(email);
-```
 
 
-
-```sql
--- delete constraints from a column
+-- DELETE CONSTRAINTS FROM A COLUMN
 
 ALTER TABLE "user" DROP CONSTRAINTS unique_email;
 ```
 
 ```sql
--- Employee TABLE
--- Each employee belongs to a department
+-- EMPLOYEE TABLE
+-- EACH EMPLOYEE BELONGS TO A DEPARTMENT
 
 CREATE TABLE Employee(
     empID SERIAL PRIMARY KEY,
@@ -131,13 +110,10 @@ CREATE TABLE Employee(
         FOREIGN KEY (departmentID)
         REFERENCES Department(deptID)
 );
-```
 
 
-```sql
- -- Department Table
--- Each Department has mny employees
-
+ -- DEPARTMENT TABLE 
+-- EACH DEPARTMENT HAS MANY EMPLOYEES
 CREATE TABLE Department(
     deptID SERIAL PRIMARY KEY,
     deptName VARCHAR(50) NOT NULL
@@ -151,9 +127,8 @@ UPDATE Table
 set
   ColumnName = ColumnValue
 where courseID = 1;  --condition
-```
 
-```js
+
 // DELETE A ROW FROM A TABLE⛔
 
 DELETE FROM TableName 
@@ -185,4 +160,9 @@ SELECT DISTINCT Column_Name FROM Table_Name
 -- FILTERING THOSE ROWS WHICH SATISFY ATLEAST ONE CONDITION
 
 SELECT * FROM Table_name WHERE salary < 50000 OR salary > 90000;
+
+
+-- FILTERING THOSE ROWS WHICH NOT === TO THIS DATE 🥱
+
+SELECT * FROM Employee WHERE joining_date <> '2020-01-1';
 ```
