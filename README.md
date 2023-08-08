@@ -160,28 +160,28 @@ DELETE FROM TableName
 WHERE condition = conditionValue;
 ```
 
-
 ```sql
 -- SELECT SOME COLUMN 🥗
 
 SELECT name, email FROM TableName;
-```
 
 
-
-```sql
 -- EFFICIENT WAY FOR SEARCHING ALL COLUMN FROM A TABLE 👌
 
 SELECT empid, name, email, salary, joiningdate, deptid FROM Table;
-```
 
-```sql
+
 -- IF WE WANT TO VIEW JUST UNIQUE VALUES FROM A COLUMN WE CAN USE "DISTINCT" 😎
 
-
 SELECT DISTINCT Column_Name FROM Table_Name
+
 
 -- FILTERING THOSE ROWS WHICH SATISFY THE CONDITION
 
 SELECT * FROM Table_name WHERE salary > 30000;
+
+
+-- FILTERING THOSE ROWS WHICH SATISFY ATLEAST ONE CONDITION
+
+SELECT * FROM Table_name WHERE salary < 50000 OR salary > 90000;
 ```
