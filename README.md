@@ -1,6 +1,6 @@
 ## Hi There  👋
 
-[![PostgreSQL Image](https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png)](https://github.com/mr-sazzad/PostgreSQL-First-look/edit/main/README.md)
+[![PostgreSQL Image](https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png)](https://github.com/mr-sazzad)
 
 
 ```sql
