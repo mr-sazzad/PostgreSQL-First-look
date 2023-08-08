@@ -201,3 +201,10 @@ WHERE condition = conditionValue;
 ```sql
 SELECT name, email FROM TableName;
 ```
+
+```css
+-- EFFICIENT WAY FOR SEARCHING ALL COLUMN FROM A TABLE 👌
+```
+```sql
+SELECT empid, name, email, salary, joiningdate, deptid FROM Table;
+```
