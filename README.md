@@ -194,3 +194,10 @@ DELETE FROM TABLE
 DELETE FROM TableName 
 WHERE condition = conditionValue;
 ```
+
+```css
+-- SELECT SOME COLUMN
+```
+```sql
+SELECT name, email FROM TableName;
+```
